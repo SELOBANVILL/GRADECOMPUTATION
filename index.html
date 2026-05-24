@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grading System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Grading System</h1>
+
+<div class = "Table">
+    <table id= "GradeTable" border="1">
+        <tr>
+            <th>Student Name</th>
+            <th>Activity (40%)</th>
+            <th>Exam (60%)</th>
+            <th>Final Grade</th>
+            <th>Scale</th>
+        </tr>
+    </table>
+</div>
+
+<div class = "Add_Row_controls">
+    <input type="number" value="1" id="numRows" />
+    <input type="button" id="btnAdd" onclick="addElements()" value="Add" />
+</div>
+
+<div class = "Summary_row">
+    <p class = "TotalStudents">Total Students: 0</p>
+    <p class = "ClassAverage">Class average: 0.00</p>
+</div>
+<script src = "IndexScript.js"></script>
+</body>
+</html>

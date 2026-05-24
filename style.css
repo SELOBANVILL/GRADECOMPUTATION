@@ -1,0 +1,32 @@
+h1 {
+  margin: 0 0 16px 0;
+  font-weight: bold;
+  text-align: center;
+}
+.Summary_row{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 600px;
+    margin-top: 8px;
+}
+.Add_Row_controls{
+    display: grid;
+    grid-template: 500%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.Table{
+    padding: 25px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 125%;
+}
+body{
+    font-weight: bold;
+    font-size: larger;
+    background-color: rgb(158, 58, 58);
+}
